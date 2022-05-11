@@ -1,2 +1,4 @@
-# esp32-c3
-ESP32 C3 PCB:
+# ESP32-C3
+- Low power
+- Small
+- Components soldered on both sides 
