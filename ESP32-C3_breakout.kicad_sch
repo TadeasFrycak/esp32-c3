@@ -3529,7 +3529,7 @@
     (property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf" (id 3) (at 153.67 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Distributor" "https://www.tme.eu/cz/details/esp32c3/moduly-iot-wifi-bluetooth/espressif/esp32-c3/" (id 4) (at 116.84 119.38 0)
+    (property "Distributor" "https://cz.mouser.com/ProductDetail/Espressif-Systems/ESP32-C3FH4?qs=iLbezkQI%252BsgL5PSvEueYlQ%3D%3D" (id 4) (at 116.84 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 790a7af5-fcf5-40e0-b396-fbdab7c5dbb1))
