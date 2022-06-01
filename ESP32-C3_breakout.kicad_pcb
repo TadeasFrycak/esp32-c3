@@ -89,10 +89,10 @@
   )
 
   (net 0 "")
-  (net 1 "Net-(C7-Pad1)")
+  (net 1 "Net-(C13-Pad1)")
   (net 2 "GND")
   (net 3 "/ANT")
-  (net 4 "Net-(C8-Pad1)")
+  (net 4 "Net-(C14-Pad1)")
   (net 5 "+3V3")
   (net 6 "unconnected-(U2-Pad18)")
   (net 7 "unconnected-(U2-Pad19)")
@@ -135,6 +135,7 @@
     (at 161.036 74.422)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
+    (property "Distributor" "https://www.tme.eu/cz/details/smd0603-5k1-1%25/rezistory-smd-0603/royal-ohm/0603saf5101t5e/")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/24254699-44c3-4f98-ae72-5bb5ba0cece3")
@@ -177,6 +178,7 @@
     (at 153.924 64.008)
     (descr "C&K Components, PTS 810 Series, Microminiature SMT Top Actuated, http://www.ckswitches.com/media/1476/pts810.pdf")
     (tags "SPST Button Switch")
+    (property "Distributor" "https://www.tme.eu/cz/details/pts830gm140smtrlfs/mikrospinace-tact/c-k/")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/b3432f53-57d7-4257-840e-82df10a22d48")
@@ -233,11 +235,12 @@
     (at 172.974 73.914 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
+    (property "Distributor" "https://www.tme.eu/cz/details/cl10b104kb8nnnc/kondenzatory-mlcc-smd-0603/samsung/")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/cb3bf78e-5917-49ae-a43e-28d5964233c7")
     (attr smd)
-    (fp_text reference "C9" (at 0 -1.43 -270) (layer "F.SilkS") hide
+    (fp_text reference "C10" (at 0 -1.43 -270) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 033e5a44-7ee3-4818-87d9-6d1e33fe5e26)
     )
@@ -275,6 +278,7 @@
     (at 182.626 75.692 45)
     (descr "SMD Crystal SERIES SMD2016/4 http://www.q-crystal.com/upload/5/2015552223166229.pdf, 2.0x1.6mm^2 package")
     (tags "SMD SMT crystal")
+    (property "Distributor" "https://cz.mouser.com/ProductDetail/ECS/ECS-400-8-37B2-CWY-TR?qs=aP1CjGhiNiFyo49lyBnESg%3D%3D")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/333af686-4b8b-4dae-abea-2e1d2c1ee9a3")
@@ -309,11 +313,11 @@
     (pad "1" smd rect (at -0.7 0.55 45) (size 0.9 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "1") (pintype "passive") (tstamp 0ecbdc67-2dc9-4537-aaf6-5d349641a2bf))
     (pad "2" smd rect (at 0.7 0.55 45) (size 0.9 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 4 "Net-(C8-Pad1)") (pinfunction "2") (pintype "passive") (tstamp c1cb513e-33e7-4780-9352-8dbb32d8277d))
+      (net 4 "Net-(C14-Pad1)") (pinfunction "2") (pintype "passive") (tstamp c1cb513e-33e7-4780-9352-8dbb32d8277d))
     (pad "3" smd rect (at 0.7 -0.55 45) (size 0.9 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "3") (pintype "passive") (tstamp e791ae11-ab79-4b0e-8090-f9e1aacdfab2))
     (pad "4" smd rect (at -0.7 -0.55 45) (size 0.9 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 1 "Net-(C7-Pad1)") (pinfunction "4") (pintype "passive") (tstamp 1d1ebeb3-7adc-48d6-9354-f86f99260994))
+      (net 1 "Net-(C13-Pad1)") (pinfunction "4") (pintype "passive") (tstamp 1d1ebeb3-7adc-48d6-9354-f86f99260994))
     (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2016-4Pin_2.0x1.6mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -326,11 +330,12 @@
     (at 172.974 67.564 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
+    (property "Distributor" "https://www.tme.eu/cz/details/smd0603-10k-1%25/rezistory-smd-0603/royal-ohm/0603saf1002t5e/")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/ddac9bd0-ca69-4eac-964c-8a615020ef71")
     (attr smd)
-    (fp_text reference "R2" (at 0 -1.43 90) (layer "F.SilkS") hide
+    (fp_text reference "R6" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 08014aaf-da24-42dd-8bea-65007fd8d813)
     )
@@ -368,11 +373,12 @@
     (at 158.496 78.74)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
+    (property "Distributor" "https://www.tme.eu/cz/details/cl10a105kp8nnnc/kondenzatory-mlcc-smd-0603/samsung/")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/101d7c7b-f800-4f22-a6ce-c6f690369bd0")
     (attr smd)
-    (fp_text reference "C1" (at 0 -1.43) (layer "F.SilkS") hide
+    (fp_text reference "C4" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp be3f3239-123d-438b-9d92-b4dec63468d7)
     )
@@ -410,15 +416,16 @@
     (at 183.388 70.866 -45)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
+    (property "Distributor" "https://cz.mouser.com/ProductDetail/Murata-Electronics/GCM1885C1H5R3BA16D?qs=QzBtWTOodeXo%2FHeCEuhFGA%3D%3D")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/39e5b5a2-35d0-40e3-8897-88a054f19a0d")
     (attr smd)
-    (fp_text reference "C13" (at 0 -1.43 135) (layer "F.SilkS") hide
+    (fp_text reference "C12" (at 0 -1.43 135) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5d180217-8b33-4e05-9297-42a65c0f2a4a)
     )
-    (fp_text value "C" (at 0 1.43 135) (layer "F.Fab") hide
+    (fp_text value "5.3pF" (at 0 1.43 135) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 67eb1e85-da58-4983-bbd2-a9f30c0c5fa2)
     )
@@ -452,15 +459,16 @@
     (at 187.706 66.548 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
+    (property "Distributor" "https://cz.mouser.com/ProductDetail/Murata-Electronics/GRM1885C2A3R9BA01D?qs=4W3PNmGdEWEmpDv2WaSz6Q%3D%3D")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/1091aee0-9629-4e12-beb8-6cde10ce23c9")
     (attr smd)
-    (fp_text reference "C14" (at 0 -1.43 90) (layer "F.SilkS") hide
+    (fp_text reference "C11" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 84ac0726-d8fa-44c7-b70c-d97ffeb2e5e5)
     )
-    (fp_text value "C" (at 0 1.43 90) (layer "F.Fab") hide
+    (fp_text value "3.9 pF" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp aa70ef5a-ba6d-4c52-ad47-240882639e88)
     )
@@ -494,6 +502,7 @@
     (at 179.324 64.77 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
+    (property "Distributor" "https://www.tme.eu/cz/details/smd0603-10k-1%25/rezistory-smd-0603/royal-ohm/0603saf1002t5e/")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/2c4c6883-9699-4569-b514-c570bee3e9c2")
@@ -585,11 +594,12 @@
     (at 181.61 65.786 45)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
+    (property "Distributor" "https://www.tme.eu/cz/details/cl10a105kp8nnnc/kondenzatory-mlcc-smd-0603/samsung/")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/55c18663-e718-4d6e-af6b-e8b7c9942e03")
     (attr smd)
-    (fp_text reference "C5" (at 0 -1.43 45) (layer "F.SilkS") hide
+    (fp_text reference "C8" (at 0 -1.43 45) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dc03105f-8d75-4212-bbc1-2cddfcc57bc3)
     )
@@ -627,11 +637,12 @@
     (at 161.798 71.12 -90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
+    (property "Distributor" "https://www.tme.eu/cz/details/cl10a106mq8nnnc/kondenzatory-mlcc-smd-0603/samsung/")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/b85db3cb-1292-4f22-89c0-f38dcb9d6a86")
     (attr smd)
-    (fp_text reference "C10" (at 0 -1.43 90) (layer "F.SilkS") hide
+    (fp_text reference "C1" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4aa32e93-f94d-4d75-a80d-f4a39cf78615)
     )
@@ -669,15 +680,16 @@
     (at 174.498 76.454)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
+    (property "Distributor" "https://www.tme.eu/cz/details/smd0603-22r-1%25/rezistory-smd-0603/royal-ohm/0603saf220jt5e/")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/2428d24d-47cc-450e-909c-e94c5832792a")
     (attr smd)
-    (fp_text reference "R6" (at 0 -1.43) (layer "F.SilkS") hide
+    (fp_text reference "R3" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7348a096-32d9-41e7-a5e5-b0f84cb32553)
     )
-    (fp_text value "10k" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "22R" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dacc7118-a19e-4439-8176-5198e237d88b)
     )
@@ -807,11 +819,12 @@
     (at 182.626 66.802 45)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
+    (property "Distributor" "https://www.tme.eu/cz/details/cl10a106mq8nnnc/kondenzatory-mlcc-smd-0603/samsung/")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/7ea429ee-b644-4aeb-bfca-07df66de74ad")
     (attr smd)
-    (fp_text reference "C4" (at 0 -1.43 45) (layer "F.SilkS") hide
+    (fp_text reference "C7" (at 0 -1.43 45) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 22d8633d-4303-4120-89fd-5ecafc893ad0)
     )
@@ -849,11 +862,12 @@
     (at 185.674 72.898 -45)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
+    (property "Distributor" "https://www.tme.eu/cz/details/cl10a106mq8nnnc/kondenzatory-mlcc-smd-0603/samsung/")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/4ff0ae76-2bb9-4cd9-9d6d-a5395e2de03f")
     (attr smd)
-    (fp_text reference "C3" (at 0 -1.43 135) (layer "F.SilkS") hide
+    (fp_text reference "C6" (at 0 -1.43 135) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5e2f1bd9-87f2-4a1b-b67a-6ead64cdecf5)
     )
@@ -891,6 +905,7 @@
     (at 167.132 75.438)
     (descr "module CMS SOT223 4 pins")
     (tags "CMS SOT")
+    (property "Field4" "https://cz.mouser.com/ProductDetail/Nexperia/BAT120C115?qs=me8TqzrmIYXK7n941yzMjQ%3D%3D")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/f86f60c4-f78e-48f1-a3fb-712348c381dd")
@@ -899,7 +914,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ed1c7610-18fa-40d8-95dd-825925e26f4a)
     )
-    (fp_text value "C4D10120D" (at 0 4.5) (layer "F.Fab") hide
+    (fp_text value "BAT120C" (at 0 4.5) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bf5189d4-4193-4057-9bed-07e84c3a8e22)
     )
@@ -939,6 +954,7 @@
     (at 184.404 68.58 45)
     (descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "inductor")
+    (property "Distributor" "https://cz.mouser.com/ProductDetail/Murata-Electronics/LQW18AS1N8J0ZD?qs=Mv7BduZupUjHep4tpVVZaA%3D%3D")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/e2d46498-a020-4c6b-88dc-ea3990b76feb")
@@ -947,7 +963,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8844bf94-d600-4736-923d-e9dd47e2f9f1)
     )
-    (fp_text value "L" (at 0 1.43 45) (layer "F.Fab") hide
+    (fp_text value "1.8 nH" (at 0 1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4476f86a-eac6-491c-a347-c927f148fe3d)
     )
@@ -981,6 +997,7 @@
     (at 161.036 76.708)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
+    (property "Distributor" "https://www.tme.eu/Document/b315665a56acbc42df513c99b390ad98/ROYALOHM-THICKFILM.pdf")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/78b411f8-8e0d-466c-9c82-773839a321fd")
@@ -1023,15 +1040,16 @@
     (at 174.498 77.978)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
+    (property "Distributor" "https://www.tme.eu/Document/b315665a56acbc42df513c99b390ad98/ROYALOHM-THICKFILM.pdf")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/13763f0d-d90a-41c6-be21-c0ac53a03581")
     (attr smd)
-    (fp_text reference "R7" (at 0 -1.43) (layer "F.SilkS") hide
+    (fp_text reference "R2" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 059b62a5-df81-4d9f-9f11-efbacf9f83dc)
     )
-    (fp_text value "10k" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "22R" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3ffaa3be-4b70-4036-94d1-cdb375245620)
     )
@@ -1065,11 +1083,12 @@
     (at 172.974 70.866 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
+    (property "Distributor" "https://www.tme.eu/cz/details/smd0603-10k-1%25/rezistory-smd-0603/royal-ohm/0603saf1002t5e/")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/9d37d0c2-7244-4e16-85ed-22f295401609")
     (attr smd)
-    (fp_text reference "R3" (at 0 -1.43 90) (layer "F.SilkS") hide
+    (fp_text reference "R7" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c7636156-ca7e-4e59-b262-b9f324a150af)
     )
@@ -1107,6 +1126,7 @@
     (at 178.308 72.136 -135)
     (descr "QFN, 32 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_32_05-08-1693.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
     (tags "QFN NoLead")
+    (property "Distributor" "https://cz.mouser.com/ProductDetail/Espressif-Systems/ESP32-C3FH4?qs=iLbezkQI%252BsgL5PSvEueYlQ%3D%3D")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/fb66491d-bc49-47b5-a124-d31f60ba1b6d")
@@ -1205,9 +1225,9 @@
     (pad "28" smd roundrect locked (at 0.25 -2.4375 225) (size 0.25 0.875) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 34 "/TX") (pinfunction "U0TXD/GPIO21") (pintype "bidirectional") (tstamp d22e95aa-f3db-4fbc-a331-048a2523233e))
     (pad "29" smd roundrect locked (at -0.25 -2.4375 225) (size 0.25 0.875) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 1 "Net-(C7-Pad1)") (pinfunction "XTAL_N") (pintype "output") (tstamp 0d0bb7b2-a6e5-46d2-9492-a1aa6e5a7b2f))
+      (net 1 "Net-(C13-Pad1)") (pinfunction "XTAL_N") (pintype "output") (tstamp 0d0bb7b2-a6e5-46d2-9492-a1aa6e5a7b2f))
     (pad "30" smd roundrect locked (at -0.75 -2.4375 225) (size 0.25 0.875) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 4 "Net-(C8-Pad1)") (pinfunction "XTAL_P") (pintype "input") (tstamp b1169a2d-8998-4b50-a48d-c520bcc1b8e1))
+      (net 4 "Net-(C14-Pad1)") (pinfunction "XTAL_P") (pintype "input") (tstamp b1169a2d-8998-4b50-a48d-c520bcc1b8e1))
     (pad "31" smd roundrect locked (at -1.25 -2.4375 225) (size 0.25 0.875) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "+3V3") (pinfunction "VDDA") (pintype "power_in") (tstamp 81bbc3ff-3938-49ac-8297-ce2bcc9a42bd))
     (pad "32" smd roundrect locked (at -1.75 -2.4375 225) (size 0.25 0.875) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
@@ -1226,11 +1246,12 @@
     (at 186.69 71.882 -45)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
+    (property "Distributor" "https://www.tme.eu/cz/details/cl10b104kb8nnnc/kondenzatory-mlcc-smd-0603/samsung/")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/72029be3-c57d-4650-9311-1280c3f196a8")
     (attr smd)
-    (fp_text reference "C6" (at 0 -1.43 135) (layer "F.SilkS") hide
+    (fp_text reference "C9" (at 0 -1.43 135) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a27c6ec1-28e6-44c8-93da-37d50076f876)
     )
@@ -1268,11 +1289,12 @@
     (at 183.642 73.406 -45)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
+    (property "Distributor" "https://www.tme.eu/cz/details/cl10b104kb8nnnc/kondenzatory-mlcc-smd-0603/samsung/")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/b4a2f3f5-4be6-47e4-a0bd-ddf87cbd66be")
     (attr smd)
-    (fp_text reference "C2" (at 0 -1.43 135) (layer "F.SilkS") hide
+    (fp_text reference "C5" (at 0 -1.43 135) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 30d5fd9e-5f75-4e34-b803-98c67dd2acda)
     )
@@ -1310,11 +1332,12 @@
     (at 184.15 77.216 -135)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
+    (property "Distributor" "https://www.tme.eu/cz/details/cl10c100jb8nnnc/kondenzatory-mlcc-smd-0603/samsung/")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/72898aa8-b6a5-46be-93fc-cb8027727404")
     (attr smd)
-    (fp_text reference "C8" (at 0 -1.43 45) (layer "F.SilkS") hide
+    (fp_text reference "C14" (at 0 -1.43 45) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 49fd32cd-d38f-4863-ac4d-655f1cf4e094)
     )
@@ -1337,7 +1360,7 @@
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp cded22e1-3082-4d52-90a4-66739ec2f71a))
     (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp de25de83-95d4-484f-af3c-5f0586981b60))
     (pad "1" smd roundrect (at -0.775 0 225) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 4 "Net-(C8-Pad1)") (pintype "passive") (tstamp 11637c48-16c0-4cfd-b370-0f76ff4adb7f))
+      (net 4 "Net-(C14-Pad1)") (pintype "passive") (tstamp 11637c48-16c0-4cfd-b370-0f76ff4adb7f))
     (pad "2" smd roundrect (at 0.775 0 225) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 14afb330-a933-4ec1-982a-ae3f07dd940d))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
@@ -1352,11 +1375,12 @@
     (at 181.61 77.978 -45)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
+    (property "Distributor" "https://www.tme.eu/cz/details/cl10c100jb8nnnc/kondenzatory-mlcc-smd-0603/samsung/")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/c7f442fa-4fd7-4081-a109-8abdae3bd027")
     (attr smd)
-    (fp_text reference "C7" (at 0 -1.43 135) (layer "F.SilkS") hide
+    (fp_text reference "C13" (at 0 -1.43 135) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 38e8b0a3-9b3f-4d1b-8203-250d63641bd8)
     )
@@ -1379,7 +1403,7 @@
     (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp d99589e5-b71f-410c-bdb5-c61a937f9c68))
     (fp_line (start 0.8 0.4) (end -0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp df0310fe-14ba-4959-b86a-009470bdde18))
     (pad "1" smd roundrect (at -0.775 0 315) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 1 "Net-(C7-Pad1)") (pintype "passive") (tstamp 16be045b-0716-4128-90c2-ba3f071be623))
+      (net 1 "Net-(C13-Pad1)") (pintype "passive") (tstamp 16be045b-0716-4128-90c2-ba3f071be623))
     (pad "2" smd roundrect (at 0.775 0 315) (size 0.9 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 99ee6c27-c24b-4bdc-b5d8-c21e54e92aea))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
@@ -1394,11 +1418,12 @@
     (at 160.274 65.532 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
+    (property "Distributor" "https://www.tme.eu/cz/details/cl10a106mq8nnnc/kondenzatory-mlcc-smd-0603/samsung/")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/4d616656-c5a9-4106-b0c3-127439991491")
     (attr smd)
-    (fp_text reference "C12" (at 0 -1.43 90) (layer "F.SilkS") hide
+    (fp_text reference "C3" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4f4225e3-26d0-4f1f-bd90-1ee81f7fb97c)
     )
@@ -1436,6 +1461,7 @@
     (at 153.924 79.756)
     (descr "C&K Components, PTS 810 Series, Microminiature SMT Top Actuated, http://www.ckswitches.com/media/1476/pts810.pdf")
     (tags "SPST Button Switch")
+    (property "Distributor" "https://www.tme.eu/cz/details/pts830gm140smtrlfs/mikrospinace-tact/c-k/")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/f7b447a0-8d35-45de-8291-73e30d483e42")
@@ -1492,11 +1518,12 @@
     (at 161.798 66.548 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
+    (property "Distributor" "https://www.tme.eu/cz/details/cl10a105kp8nnnc/kondenzatory-mlcc-smd-0603/samsung/")
     (property "Sheetfile" "ESP32-C3_breakout.kicad_sch")
     (property "Sheetname" "")
     (path "/10d8d6f1-6982-4bb6-93b4-b428b59bdef9")
     (attr smd)
-    (fp_text reference "C11" (at 0 -1.43 90) (layer "F.SilkS") hide
+    (fp_text reference "C2" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 323039e3-3c77-442a-9e90-37288259a1d9)
     )
@@ -1532,6 +1559,7 @@
   (footprint "USB4105-GF-A:GCT_USB4105-GF-A" (layer "F.Cu")
     (tedit 628E3E6B) (tstamp f583ae7a-e2c8-42c3-b2b2-a74c188e9885)
     (at 152.908 71.882 -90)
+    (property "Distributor" "https://cz.mouser.com/ProductDetail/GCT/USB4105-GF-A?qs=KUoIvG%2F9IlY%2FMLlBMpStpA%3D%3D")
     (property "MANUFACTURER" "GCT")
     (property "MAXIMUM_PACKAGE_HEIGHT" "3.31 mm")
     (property "PARTREV" "A3")
@@ -1844,7 +1872,7 @@
   (via (at 161.036 75.692) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 28d13b72-f028-4274-9910-484fedbf57f8))
   (via (at 188.976 80.264) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 2a6c1c56-c4a8-4823-9e06-a17b18d847f1))
   (via (at 186.436 68.072) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 2b26f40b-0f70-42bf-8731-32994d1d5217))
-  (via (at 186.182 74.93) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 2e228ee5-2945-4fbc-960c-df968cf669ea))
+  (via (at 185.674 69.342) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 2e228ee5-2945-4fbc-960c-df968cf669ea))
   (via (at 188.976 69.088) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 3e355fe0-178f-40d9-b153-bea5357074e8))
   (via (at 152.908 69.088) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 416d18f8-3106-401d-bf11-096ea4513690))
   (via (at 188.976 81.28) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 41abd43d-7c20-490d-accd-1a8cf588727f))
@@ -1865,6 +1893,7 @@
   (via (at 188.976 78.232) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 844c49d7-422a-4932-a894-2087d0affd34))
   (via (at 186.436 66.548) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 98230b0a-0287-437f-945f-16c2f79bf47e))
   (via (at 165.862 66.04) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp a6bd7d5c-8d40-4166-9917-cbd87b370d64))
+  (via (at 184.912 66.548) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp b211c05b-1c13-41c9-8489-e282cf97fb25))
   (via (at 188.976 71.12) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp b52fea08-4132-4eb1-b587-c5cea9833afc))
   (via (at 188.976 79.248) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp c1536af9-4a2e-463f-8929-87723d2d61b5))
   (via (at 174.752 75.184) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp d4abd138-e352-44c2-a918-1bb2126f705f))
