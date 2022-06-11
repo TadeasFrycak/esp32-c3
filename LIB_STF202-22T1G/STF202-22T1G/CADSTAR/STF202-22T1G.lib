@@ -1,0 +1,18 @@
+.STF202-22T1G :1 ;USB Filter with ESD Protection
+SOT95P275X110-6N
+*STM IC
+*NGS
+*PLB 1="VBUS" 2="D(IN)_1" 3="D(IN)_2" 4="D(OUT)_1" 5="D(OUT)_2" 6="GND"
+*MXP 6
+*DFN STF202-22T1G
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (STF202-22T1G)
+~!Mouser Part Number (863-STF202-22T1G)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/onsemi/STF202-22T1G?qs=xZq1yRCsb1dM1UQ1NtNRtw%3D%3D)
+~!Arrow Part Number (STF202-22T1G)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/stf202-22t1g/on-semiconductor?region=nac)
+~!Link Datasheet (http://www.onsemi.com/pub/Collateral/STF202-22T1-D.PDF)
+~!Height (1.1mm)
+~!3D_Model (STF202-22T1G)
+STF202-22T1G
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STF202_22T1G'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "onsemi", "STF202-22T1G" (!) = "", "SOT95P275X110-6N", "SOT23 (6-Pin)", "863-STF202-22T1G", "https://www.mouser.co.uk/ProductDetail/onsemi/STF202-22T1G?qs=xZq1yRCsb1dM1UQ1NtNRtw%3D%3D", "STF202-22T1G", "https://www.arrow.com/en/products/stf202-22t1g/on-semiconductor?region=nac", "USB Filter with ESD Protection", "http://www.onsemi.com/pub/Collateral/STF202-22T1-D.PDF", "1.1 mm"
+END_PART
+
+END.

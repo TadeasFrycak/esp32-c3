@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=STF202-22T1G
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=4.1
+Released=2020-12-29 06:39:31
+Downloaded=2022-06-02 19:57:01
+3D=Y
