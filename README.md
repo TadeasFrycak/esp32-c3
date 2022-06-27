@@ -18,4 +18,3 @@ Compact and minimalist **ESP32-C3** breakout designed in [KiCAD](https://www.kic
 ## Contributors:
 - **SZKANDERA Filip** (filip.szkandera@gmail.com, [@FilipSzkandera](https://github.com/FilipSzkandera/))
 - **FRYČÁK Tadeáš** (frycaktadeas@seznam.cz, [@frycaktadeas](https://github.com/frycaktadeas/))
-y
