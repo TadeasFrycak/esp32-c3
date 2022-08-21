@@ -1,7 +1,5 @@
 # ESP32-C3 Nano
 
-! Temporary warning: BAT120C has output on pin 4, not pin 2! This will be resolved in later revision
-
 Compact and minimalist **ESP32-C3** breakout designed in [KiCAD](https://www.kicad.org/)
 
 ![Preview](docs/3d_preview.png "Preview")
