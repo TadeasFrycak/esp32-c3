@@ -16,7 +16,7 @@ Compact and minimalist **ESP32-C3** breakout designed in [KiCAD](https://www.kic
 - Chip: **ESP32-C3FH4**
 
 ## Interactive HTML BOM
-Thanks to the awesome KiCAD [IBOM](https://github.com/openscopeproject/InteractiveHtmlBom) plugin, we can now generate this stunning BOM!
+Thanks to the awesome KiCAD [IBOM](https://github.com/openscopeproject/InteractiveHtmlBom) plugin, we can now generate this stunning BOM! You can find it in docs/ibom.html
 ![IBOM](docs/ibom.png "IBOM")
 
 ## Contributors:
