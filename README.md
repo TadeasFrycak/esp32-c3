@@ -1,5 +1,7 @@
 # ESP32-C3 Nano
 
+:warning: **Temporary warning**: This version of PCB has not been yet validated and it is actively being worked on
+
 Compact and minimalist **ESP32-C3** breakout designed in [KiCAD](https://www.kicad.org/)
 
 ![Preview](docs/3d_preview.png "Preview")
