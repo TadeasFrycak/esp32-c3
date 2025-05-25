@@ -26,4 +26,4 @@ Thanks to the awesome KiCAD [IBOM](https://github.com/openscopeproject/Interacti
 
 ## Contributors:
 - **SZKANDERA Filip** (filip.szkandera@gmail.com, [@FilipSzkandera](https://github.com/FilipSzkandera/))
-- **FRYČÁK Tadeáš** (frycaktadeas@seznam.cz, [@frycaktadeas](https://github.com/frycaktadeas/))
+- **FRYČÁK Tadeáš** (info@frycak.com, [@TadeasFrycak](https://github.com/TadeasFrycak/))
